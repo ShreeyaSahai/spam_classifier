@@ -1,0 +1,15 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+.env
+venv/
+*.log
+
+# Model and Vectorizer files (as they are generated and updated)
+spam_classifier_model.joblib
+vectorizer.joblib
+
+# Test data (as they are generated)
+X_test.npz
+y_test.pkl
